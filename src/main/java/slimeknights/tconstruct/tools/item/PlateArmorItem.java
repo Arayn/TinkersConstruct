@@ -20,12 +20,12 @@ public class PlateArmorItem extends ModifiableArmorItem {
 
   @Override
   public void initializeClient(Consumer<IItemRenderProperties> consumer) {
-    consumer.accept(new IItemRenderProperties() {
-      @Nonnull
-      @Override
-      public Model getBaseArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlot armorSlot, HumanoidModel<?> _default) {
-        return PlateArmorModel.getModel(itemStack, armorSlot, _default);
-      }
-    });
+//    consumer.accept(new IItemRenderProperties() {
+//      @Nonnull
+//      @Override
+//      public Model getBaseArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlot armorSlot, HumanoidModel<?> _default) {
+//        return PlateArmorModel.getModel(itemStack, armorSlot, _default);
+//      }
+//    });
   }
 }

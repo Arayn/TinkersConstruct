@@ -19,12 +19,12 @@ public class SlimelytraItem extends SlimesuitItem {
 
   @Override
   public void initializeClient(Consumer<IItemRenderProperties> consumer) {
-    consumer.accept(new IItemRenderProperties() {
-      @Nonnull
-      @Override
-      public Model getBaseArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlot armorSlot, HumanoidModel<?> _default) {
-        return SlimelytraArmorModel.getModel(entityLiving, itemStack, _default);
-      }
-    });
+//    consumer.accept(new IItemRenderProperties() {
+//      @Nonnull
+//      @Override
+//      public Model getBaseArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlot armorSlot, HumanoidModel<?> _default) {
+//        return SlimelytraArmorModel.getModel(entityLiving, itemStack, _default);
+//      }
+//    });
   }
 }
